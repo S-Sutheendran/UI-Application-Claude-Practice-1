@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(mkdir -p 'c:/Users/687365/OneDrive - Cognizant/Desktop/Learning/GenAI - Learning - AIAgent/UI-Application-Claude-Practice-1/agent/NEXUS/core')",
+      "Bash(mkdir -p 'c:/Users/687365/OneDrive - Cognizant/Desktop/Learning/GenAI - Learning - AIAgent/UI-Application-Claude-Practice-1/agent/NEXUS/modules/architect')",
+      "Bash(mkdir -p 'c:/Users/687365/OneDrive - Cognizant/Desktop/Learning/GenAI - Learning - AIAgent/UI-Application-Claude-Practice-1/agent/NEXUS/modules/frontend')",
+      "Bash(mkdir -p 'c:/Users/687365/OneDrive - Cognizant/Desktop/Learning/GenAI - Learning - AIAgent/UI-Application-Claude-Practice-1/agent/NEXUS/modules/backend')",
+      "Bash(mkdir -p 'c:/Users/687365/OneDrive - Cognizant/Desktop/Learning/GenAI - Learning - AIAgent/UI-Application-Claude-Practice-1/agent/NEXUS/modules/database')",
+      "WebFetch(domain:www.focustodo.cn)",
+      "Bash(git -C \"c:/Users/687365/OneDrive - Cognizant/Desktop/Learning/GenAI - Learning - AIAgent/UI-Application-Claude-Practice-1\" log --oneline -10)",
+      "Bash(npm --version)",
+      "PowerShell(Start-Process \"http://localhost:8081\")",
+      "PowerShell(Start-Process \"cmd.exe\" -ArgumentList \"/k\", \"cd /d `\"c:\\\\Users\\\\687365\\\\OneDrive - Cognizant\\\\Desktop\\\\Learning\\\\GenAI - Learning - AIAgent\\\\UI-Application-Claude-Practice-1\\\\admin-panel`\" && npm run dev\")",
+      "PowerShell(Start-Process \"http://localhost:3001\")"
+    ]
+  }
+}
